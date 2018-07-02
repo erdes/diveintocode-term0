@@ -9,7 +9,7 @@ def join_list(receive_list,send_list):
 
 
 def get_link(htmlsource):
-    href_number=htmlsource.find("href=")     #hrefがある場所を探す。   〜.find('href"')  とかにしてもいいけど、結局文字列の先頭のインデックスを返していだけなので結果は同じ
+    href_number=htmlsource.find("href=")     #hrefがある場所を探す。   〜.find('href="')  とかにしてもいいけど、結局文字列の先頭のインデックスを返していだけなので結果は同じ
     if href_number==-1:
         return None,0
 
