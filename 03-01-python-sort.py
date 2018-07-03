@@ -1,5 +1,7 @@
 import csv,operator
 
+#読み込みとソートまでしたコードになります。
+
 f=open("task.csv")
 reader=csv.reader(f)
 
