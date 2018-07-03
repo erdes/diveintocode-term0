@@ -1,7 +1,5 @@
 import webbrowser
 
-
-
 class School():
     def __init__(self,name,address,number_of_students,founding_years,\
             introduction_video_url,introduction_statement):
@@ -29,17 +27,8 @@ a_school=School("A学校","東京都新宿区...",300,100,"https://www.youtube.c
 b_school=School("B学校","東京都新宿区...",500,30,"https://www.youtube.com/watch?v=zkUYZbeV44s&list=PLqMSTn3bGwgy0UxwZ6CSz4Ap-oprBGopn&index=5","B学校は文武両立で...")
 
 
-# print("{0}は{1}です。".format("私","中司"))
 a_school.introduction_statement_of()
 b_school.introduction_statement_of()
 
 a_school.introduction_video_url_of()
 b_school.introduction_video_url_of()
-# a_school.name="A学校"
-# a_school.address="東京都新宿区"
-# a_school.number_of_students=300
-# a_school.founding_years=100
-# a_school.introduction_video_url="urlA"
-# a_school.introduction_statement="A学校の紹介文"
-#
-# print(a_school.name)
