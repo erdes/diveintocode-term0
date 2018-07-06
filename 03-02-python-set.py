@@ -10,7 +10,7 @@ course_dict = {
 def find_person(want_to_find_person):
     for course in course_dict.keys():
         if len(course_dict[course] & want_to_find_person) == 1 :
-            print("{0}に{1}のみ在籍しています。".format(course, want_to_find_person))
+            print("{0}に{1}のみ在籍しています。".format(course, want_to_find_person & course_dict[course]))
 
         elif len(course_dict[course] & want_to_find_person)== 0:
             print("{0}に{1}は在籍していません。".format(course, want_to_find_person))
